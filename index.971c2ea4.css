@@ -1,0 +1,1371 @@
+.calendar {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  line-height: 100px;
+}
+
+.calendar-block {
+  flex-wrap: wrap;
+  gap: 1px;
+  width: 710px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.calendar-block__day--mon :first-child {
+  margin-left: 0;
+}
+
+.calendar-block__day--tue :first-child {
+  margin-left: 101px;
+}
+
+.calendar-block__day--wed :first-child {
+  margin-left: 202px;
+}
+
+.calendar-block__day--thu :first-child {
+  margin-left: 303px;
+}
+
+.calendar-block__day--fri :first-child {
+  margin-left: 404px;
+}
+
+.calendar-block__day--sat :first-child {
+  margin-left: 505px;
+}
+
+.calendar-block__day--sun :first-child {
+  margin-left: 606px;
+}
+
+.calendar-block__month--28 :first-child {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :first-child:before {
+  content: "1";
+}
+
+.calendar-block__month--28 :nth-child(2) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(2):before {
+  content: "2";
+}
+
+.calendar-block__month--28 :nth-child(3) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(3):before {
+  content: "3";
+}
+
+.calendar-block__month--28 :nth-child(4) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(4):before {
+  content: "4";
+}
+
+.calendar-block__month--28 :nth-child(5) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(5):before {
+  content: "5";
+}
+
+.calendar-block__month--28 :nth-child(6) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(6):before {
+  content: "6";
+}
+
+.calendar-block__month--28 :nth-child(7) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(7):before {
+  content: "7";
+}
+
+.calendar-block__month--28 :nth-child(8) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(8):before {
+  content: "8";
+}
+
+.calendar-block__month--28 :nth-child(9) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(9):before {
+  content: "9";
+}
+
+.calendar-block__month--28 :nth-child(10) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(10):before {
+  content: "10";
+}
+
+.calendar-block__month--28 :nth-child(11) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(11):before {
+  content: "11";
+}
+
+.calendar-block__month--28 :nth-child(12) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(12):before {
+  content: "12";
+}
+
+.calendar-block__month--28 :nth-child(13) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(13):before {
+  content: "13";
+}
+
+.calendar-block__month--28 :nth-child(14) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(14):before {
+  content: "14";
+}
+
+.calendar-block__month--28 :nth-child(15) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(15):before {
+  content: "15";
+}
+
+.calendar-block__month--28 :nth-child(16) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(16):before {
+  content: "16";
+}
+
+.calendar-block__month--28 :nth-child(17) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(17):before {
+  content: "17";
+}
+
+.calendar-block__month--28 :nth-child(18) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(18):before {
+  content: "18";
+}
+
+.calendar-block__month--28 :nth-child(19) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(19):before {
+  content: "19";
+}
+
+.calendar-block__month--28 :nth-child(20) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(20):before {
+  content: "20";
+}
+
+.calendar-block__month--28 :nth-child(21) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(21):before {
+  content: "21";
+}
+
+.calendar-block__month--28 :nth-child(22) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(22):before {
+  content: "22";
+}
+
+.calendar-block__month--28 :nth-child(23) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(23):before {
+  content: "23";
+}
+
+.calendar-block__month--28 :nth-child(24) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(24):before {
+  content: "24";
+}
+
+.calendar-block__month--28 :nth-child(25) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(25):before {
+  content: "25";
+}
+
+.calendar-block__month--28 :nth-child(26) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(26):before {
+  content: "26";
+}
+
+.calendar-block__month--28 :nth-child(27) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(27):before {
+  content: "27";
+}
+
+.calendar-block__month--28 :nth-child(28) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--28 :nth-child(28):before {
+  content: "28";
+}
+
+.calendar-block__month--29 :first-child {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :first-child:before {
+  content: "1";
+}
+
+.calendar-block__month--29 :nth-child(2) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(2):before {
+  content: "2";
+}
+
+.calendar-block__month--29 :nth-child(3) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(3):before {
+  content: "3";
+}
+
+.calendar-block__month--29 :nth-child(4) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(4):before {
+  content: "4";
+}
+
+.calendar-block__month--29 :nth-child(5) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(5):before {
+  content: "5";
+}
+
+.calendar-block__month--29 :nth-child(6) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(6):before {
+  content: "6";
+}
+
+.calendar-block__month--29 :nth-child(7) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(7):before {
+  content: "7";
+}
+
+.calendar-block__month--29 :nth-child(8) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(8):before {
+  content: "8";
+}
+
+.calendar-block__month--29 :nth-child(9) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(9):before {
+  content: "9";
+}
+
+.calendar-block__month--29 :nth-child(10) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(10):before {
+  content: "10";
+}
+
+.calendar-block__month--29 :nth-child(11) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(11):before {
+  content: "11";
+}
+
+.calendar-block__month--29 :nth-child(12) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(12):before {
+  content: "12";
+}
+
+.calendar-block__month--29 :nth-child(13) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(13):before {
+  content: "13";
+}
+
+.calendar-block__month--29 :nth-child(14) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(14):before {
+  content: "14";
+}
+
+.calendar-block__month--29 :nth-child(15) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(15):before {
+  content: "15";
+}
+
+.calendar-block__month--29 :nth-child(16) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(16):before {
+  content: "16";
+}
+
+.calendar-block__month--29 :nth-child(17) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(17):before {
+  content: "17";
+}
+
+.calendar-block__month--29 :nth-child(18) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(18):before {
+  content: "18";
+}
+
+.calendar-block__month--29 :nth-child(19) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(19):before {
+  content: "19";
+}
+
+.calendar-block__month--29 :nth-child(20) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(20):before {
+  content: "20";
+}
+
+.calendar-block__month--29 :nth-child(21) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(21):before {
+  content: "21";
+}
+
+.calendar-block__month--29 :nth-child(22) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(22):before {
+  content: "22";
+}
+
+.calendar-block__month--29 :nth-child(23) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(23):before {
+  content: "23";
+}
+
+.calendar-block__month--29 :nth-child(24) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(24):before {
+  content: "24";
+}
+
+.calendar-block__month--29 :nth-child(25) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(25):before {
+  content: "25";
+}
+
+.calendar-block__month--29 :nth-child(26) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(26):before {
+  content: "26";
+}
+
+.calendar-block__month--29 :nth-child(27) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(27):before {
+  content: "27";
+}
+
+.calendar-block__month--29 :nth-child(28) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(28):before {
+  content: "28";
+}
+
+.calendar-block__month--29 :nth-child(29) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--29 :nth-child(29):before {
+  content: "29";
+}
+
+.calendar-block__month--30 :first-child {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :first-child:before {
+  content: "1";
+}
+
+.calendar-block__month--30 :nth-child(2) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(2):before {
+  content: "2";
+}
+
+.calendar-block__month--30 :nth-child(3) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(3):before {
+  content: "3";
+}
+
+.calendar-block__month--30 :nth-child(4) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(4):before {
+  content: "4";
+}
+
+.calendar-block__month--30 :nth-child(5) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(5):before {
+  content: "5";
+}
+
+.calendar-block__month--30 :nth-child(6) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(6):before {
+  content: "6";
+}
+
+.calendar-block__month--30 :nth-child(7) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(7):before {
+  content: "7";
+}
+
+.calendar-block__month--30 :nth-child(8) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(8):before {
+  content: "8";
+}
+
+.calendar-block__month--30 :nth-child(9) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(9):before {
+  content: "9";
+}
+
+.calendar-block__month--30 :nth-child(10) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(10):before {
+  content: "10";
+}
+
+.calendar-block__month--30 :nth-child(11) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(11):before {
+  content: "11";
+}
+
+.calendar-block__month--30 :nth-child(12) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(12):before {
+  content: "12";
+}
+
+.calendar-block__month--30 :nth-child(13) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(13):before {
+  content: "13";
+}
+
+.calendar-block__month--30 :nth-child(14) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(14):before {
+  content: "14";
+}
+
+.calendar-block__month--30 :nth-child(15) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(15):before {
+  content: "15";
+}
+
+.calendar-block__month--30 :nth-child(16) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(16):before {
+  content: "16";
+}
+
+.calendar-block__month--30 :nth-child(17) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(17):before {
+  content: "17";
+}
+
+.calendar-block__month--30 :nth-child(18) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(18):before {
+  content: "18";
+}
+
+.calendar-block__month--30 :nth-child(19) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(19):before {
+  content: "19";
+}
+
+.calendar-block__month--30 :nth-child(20) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(20):before {
+  content: "20";
+}
+
+.calendar-block__month--30 :nth-child(21) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(21):before {
+  content: "21";
+}
+
+.calendar-block__month--30 :nth-child(22) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(22):before {
+  content: "22";
+}
+
+.calendar-block__month--30 :nth-child(23) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(23):before {
+  content: "23";
+}
+
+.calendar-block__month--30 :nth-child(24) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(24):before {
+  content: "24";
+}
+
+.calendar-block__month--30 :nth-child(25) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(25):before {
+  content: "25";
+}
+
+.calendar-block__month--30 :nth-child(26) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(26):before {
+  content: "26";
+}
+
+.calendar-block__month--30 :nth-child(27) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(27):before {
+  content: "27";
+}
+
+.calendar-block__month--30 :nth-child(28) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(28):before {
+  content: "28";
+}
+
+.calendar-block__month--30 :nth-child(29) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(29):before {
+  content: "29";
+}
+
+.calendar-block__month--30 :nth-child(30) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--30 :nth-child(30):before {
+  content: "30";
+}
+
+.calendar-block__month--31 :first-child {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :first-child:before {
+  content: "1";
+}
+
+.calendar-block__month--31 :nth-child(2) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(2):before {
+  content: "2";
+}
+
+.calendar-block__month--31 :nth-child(3) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(3):before {
+  content: "3";
+}
+
+.calendar-block__month--31 :nth-child(4) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(4):before {
+  content: "4";
+}
+
+.calendar-block__month--31 :nth-child(5) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(5):before {
+  content: "5";
+}
+
+.calendar-block__month--31 :nth-child(6) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(6):before {
+  content: "6";
+}
+
+.calendar-block__month--31 :nth-child(7) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(7):before {
+  content: "7";
+}
+
+.calendar-block__month--31 :nth-child(8) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(8):before {
+  content: "8";
+}
+
+.calendar-block__month--31 :nth-child(9) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(9):before {
+  content: "9";
+}
+
+.calendar-block__month--31 :nth-child(10) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(10):before {
+  content: "10";
+}
+
+.calendar-block__month--31 :nth-child(11) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(11):before {
+  content: "11";
+}
+
+.calendar-block__month--31 :nth-child(12) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(12):before {
+  content: "12";
+}
+
+.calendar-block__month--31 :nth-child(13) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(13):before {
+  content: "13";
+}
+
+.calendar-block__month--31 :nth-child(14) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(14):before {
+  content: "14";
+}
+
+.calendar-block__month--31 :nth-child(15) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(15):before {
+  content: "15";
+}
+
+.calendar-block__month--31 :nth-child(16) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(16):before {
+  content: "16";
+}
+
+.calendar-block__month--31 :nth-child(17) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(17):before {
+  content: "17";
+}
+
+.calendar-block__month--31 :nth-child(18) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(18):before {
+  content: "18";
+}
+
+.calendar-block__month--31 :nth-child(19) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(19):before {
+  content: "19";
+}
+
+.calendar-block__month--31 :nth-child(20) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(20):before {
+  content: "20";
+}
+
+.calendar-block__month--31 :nth-child(21) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(21):before {
+  content: "21";
+}
+
+.calendar-block__month--31 :nth-child(22) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(22):before {
+  content: "22";
+}
+
+.calendar-block__month--31 :nth-child(23) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(23):before {
+  content: "23";
+}
+
+.calendar-block__month--31 :nth-child(24) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(24):before {
+  content: "24";
+}
+
+.calendar-block__month--31 :nth-child(25) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(25):before {
+  content: "25";
+}
+
+.calendar-block__month--31 :nth-child(26) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(26):before {
+  content: "26";
+}
+
+.calendar-block__month--31 :nth-child(27) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(27):before {
+  content: "27";
+}
+
+.calendar-block__month--31 :nth-child(28) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(28):before {
+  content: "28";
+}
+
+.calendar-block__month--31 :nth-child(29) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(29):before {
+  content: "29";
+}
+
+.calendar-block__month--31 :nth-child(30) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(30):before {
+  content: "30";
+}
+
+.calendar-block__month--31 :nth-child(31) {
+  box-sizing: border-box;
+  visibility: visible;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calendar-block__month--31 :nth-child(31):before {
+  content: "31";
+}
+
+.calendar-item {
+  visibility: hidden;
+  width: 100px;
+  height: 100px;
+  transition: transform .5s;
+}
+
+.calendar-item:hover {
+  cursor: pointer;
+  background-color: pink;
+  transform: translateY(-20px);
+}
+
+.calendar__header {
+  text-align: center;
+  gap: 1px;
+  width: 710px;
+  margin: 21px auto;
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+}
+
+.calendar__header-item {
+  box-sizing: border-box;
+  border: 1px solid #000;
+  width: 100px;
+}
+
+/*# sourceMappingURL=index.971c2ea4.css.map */
